@@ -18,7 +18,7 @@ void setup()
 
   tft.begin();
   tft.setRotation(1);
-  tft.setBrightness(255);
+  tft.setBrightness(150);
 
   setupLvgl();
   drawUI();
@@ -100,7 +100,6 @@ static void drawUI()
   lv_obj_add_style(txtArea, &txtStyle, 0);
   lv_obj_align(txtArea, LV_ALIGN_TOP_MID, 0, 10);
   lv_obj_set_size(txtArea, 410, 140);
-  
 
   //////////////////////////////////////////////////////
   // creating keyboard                               //
